@@ -1,0 +1,11 @@
+school_id,state,school_type,meals_served,meals_required
+1,Karnataka,Primary,480,500
+2,Karnataka,Upper Primary,950,1000
+3,West Bengal,Primary,920,1000
+4,West Bengal,Upper Primary,850,1000
+5,Maharashtra,Primary,700,800
+6,Maharashtra,Upper Primary,600,800
+7,Bihar,Primary,400,700
+8,Bihar,Upper Primary,500,1000
+9,Tamil Nadu,Primary,1000,1000
+10,Tamil Nadu,Upper Primary,950,1000
