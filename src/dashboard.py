@@ -10,3 +10,8 @@ state_avg = df.groupby('state')['coverage_pct'].mean()
 plt.figure(figsize=(8,5))
 state_avg.plot(kind='bar', color='pink')
 plt.title('Average Midday - Meal Coverage by State')
+plt.ylabel('Coverage Percentage')
+plt.xlabel('State')
+plt.xticks(rotation=45)
+plt.show()
+
