@@ -28,7 +28,7 @@ def coverage_category(pct):
 
 df['coverage_category'] = df['coverage_pct'].apply(coverage_category)
 
-category_counts = df['category'].value_counts()
+category_counts = df['coverage_category'].value_counts()
 
 plt.figure(figsize=(6,6))
 category_counts.plot(kind='pie', autopct='%1.1f%%', startangle=140)
